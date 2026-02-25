@@ -3,6 +3,24 @@
 ### Account Statement addon **[WHMCS](https://puqcloud.com/link.php?id=77)**
 #####  [Order now](https://puqcloud.com/store/whmcs-addon-modules) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [FAQ](https://community.puqcloud.com/)
 
+## v1.1 — 2026-02-25
+
+### Bug Fixes
+
+- Fixed "Call to undefined function puq_account_statement_LoadLang()" error on customer profile page
+
+### Improvements
+
+- All monetary values now consistently display with 2 decimal places (e.g., `0.00`, `5.10` instead of `0` or `5.1`)
+- Removed currency symbol from the Total column in statements for uniform formatting with Debit and Credit columns
+
+### New Features
+
+- Added "Show Payment Method" setting to control visibility of the Payment Method column in statements
+- When disabled, the Payment Method column is hidden across all views: admin preview, PDF exports, and CSV exports
+
+---
+
 ## v1.0 — 2026-02-18
 
 First release.
