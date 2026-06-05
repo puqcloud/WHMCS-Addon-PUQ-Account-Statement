@@ -16,6 +16,11 @@ Clients can access their Account Statement page in two ways:
 
 > **Note:** The client area page is only available when "Enable Client Area" is checked in the module Settings.
 
+When "Add to Billing Menu" is enabled, clients reach the page from **Billing** > **Account Statement** in the client area navigation:
+
+![Account Statement link in the client area Billing menu](img/22-client-billing-menu.png)
+*22-client-billing-menu.png*
+
 ![Client Area — account statement generation and saved statements](img/11-client-area.png)
 *11-client-area.png*
 
@@ -48,6 +53,9 @@ Checkboxes to select what financial data to include:
 ## Statement Preview
 
 After clicking **View**, the generated statement is displayed inline below the form. The preview shows the same rendered HTML statement that administrators see.
+
+![Client area statement preview with summary](img/23-client-area-preview.png)
+*23-client-area-preview.png*
 
 ---
 

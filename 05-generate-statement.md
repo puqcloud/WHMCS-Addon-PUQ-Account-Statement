@@ -12,11 +12,20 @@ This is the main page for creating individual account statements for a specific 
 
 ---
 
+## Generate from a Client's Profile
+
+You can also start a statement directly from a client's profile. Open **Clients** > select a client, and on the **Summary** tab use the **Account Statement** panel and click **Generate Account Statement**. This opens the Generate page with the client pre-selected.
+
+![Generate Account Statement button on the client profile Summary tab](img/21-admin-client-profile.png)
+*21-admin-client-profile.png*
+
+---
+
 ## Statement Parameters
 
 ### Client Selection
 
-Use the search field to find a client by name or email. The field uses Select2 with AJAX search — start typing at least 2 characters to see results.
+Use the search field to find a client by **first name, last name (or both together), company, email, or client ID**. The field uses Select2 with AJAX search — start typing to see results. Searching a full name such as "John Smith" matches first name + last name in any order.
 
 > **Tip:** You can navigate here from the Dashboard's Quick Generate feature, which pre-selects the client.
 
@@ -57,6 +66,10 @@ Select which financial data to include in the statement:
 ### View Statement
 
 Click **View Statement** to generate and display the statement preview inline on the page. The preview shows the rendered HTML statement with all sections.
+
+> **Reading the balance:** The summary shows two distinct figures — **Account Credit** (the credit available on the client's WHMCS account) and the **Closing Balance**, which is the outstanding amount. A negative Closing Balance means the client owes that amount, and it always ties out with the Debit and Credit columns. The **Open Balance** line carries forward any unpaid invoices from before the statement period and can be hidden via *Settings → Show Open Balance*.
+
+> **Language & dates:** Statements (preview, PDF, and CSV) are generated in the **client's own language** when available — falling back to the system language, then English. Dates follow your **WHMCS Global Date Format**.
 
 ### Download PDF
 

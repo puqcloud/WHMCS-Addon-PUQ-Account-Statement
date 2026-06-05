@@ -18,6 +18,8 @@ This page controls the module's global settings including client area access, de
 |---------|-------------|
 | **Enable Client Area** | Allow clients to access the Account Statement page in the client area |
 | **Add to Billing Menu** | Show an "Account Statement" link in the client area billing navigation menu |
+| **Show Payment Method** | Show the payment method / gateway column in statements (admin preview, PDF, and CSV). Disable to hide it everywhere |
+| **Show Open Balance** | Show the Open Balance line on statements. Disable to show only the Account Credit and Closing (amount owed) figures |
 
 ---
 
@@ -87,7 +89,7 @@ When a statement is sent to a client (manually, via bulk, or via schedule), they
 The email includes:
 - PDF statement as attachment
 - Statement period
-- Summary table with paid/unpaid invoices, credits, opening and closing balance
+- Summary table with paid/unpaid invoices, credits, account credit, and the closing balance (amount owed)
 - Link to view the statement online
 
 ---

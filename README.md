@@ -12,6 +12,9 @@
 ## Key Features
 
 - **Statement Generation** — generate detailed financial statements for any client with customizable date ranges and filters
+- **Clear Outstanding Balance** — the closing balance shows exactly how much the client owes (negative = owed) and ties out with the Debit/Credit columns; Account Credit is shown as a separate figure
+- **Multilingual Statements** — PDF, preview, and CSV are generated in the client's own language (falling back to system language, then English), translated across 25 languages
+- **WHMCS Date Format** — statement dates follow your WHMCS Global Date Format
 - **Multiple Export Formats** — export statements as PDF or CSV files
 - **Customizable PDF Templates** — choose from multiple PDF layouts (Classic, Modern, Detailed) in Portrait or Landscape orientation
 - **PDF Style Editor** — customize typography, colors, display options, header/footer text, and custom CSS
@@ -27,7 +30,7 @@
 - **Quick Period Selection** — one-click date range presets (This Month, Last Month, This Year, Last Year)
 - **Dashboard** — overview with key metrics, quick generate, recent statements, and upcoming schedules
 - **License system** — online/offline license verification with graceful degradation (dashboard remains accessible without a license)
-- **English language interface**
+- **Multilingual interface** — admin and client area available in 25 languages
 
 ---
 
@@ -36,8 +39,17 @@
 | Requirement | Minimum |
 |-------------|---------|
 | **WHMCS** | 8.x, 9.x |
-| **PHP** | 8.1, 8.2+ |
+| **PHP** | 7.4, 8.1, 8.2+ |
 | **ionCube Loader** | v13 or newer (v14, v15) |
+
+The module ships as separate ionCube-encoded builds per PHP version. Pick the build that matches your PHP:
+
+| WHMCS | Supported PHP | Build to use |
+|-------|---------------|--------------|
+| **WHMCS 8** | 7.4, 8.1, 8.2 | `php74`, `php81`, or `php82` (match your PHP) |
+| **WHMCS 9** | 8.2+ | `php82` |
+
+> For any PHP **8.2 or newer**, always use the `php82` build.
 
 ---
 

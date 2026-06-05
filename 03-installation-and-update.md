@@ -7,11 +7,22 @@
 
 | Requirement | Minimum |
 |-------------|---------|
-| **PHP** | 8.1, 8.2 or newer |
+| **PHP** | 7.4, 8.1, 8.2 or newer |
 | **WHMCS** | 8.x, 9.x or newer |
 | **ionCube Loader** | v13 or newer (v14, v15) |
 
 > **Note:** The module uses ionCube encoding. Make sure ionCube Loader is installed and active on your server.
+
+### Which build do I need?
+
+The module is distributed as separate ionCube-encoded builds, one per PHP version. **The PHP version determines which build you download** — an archive encoded for one PHP version will not run on another.
+
+| WHMCS | Supported PHP | Build to download |
+|-------|---------------|-------------------|
+| **WHMCS 8** | 7.4, 8.1, 8.2 | `php74`, `php81`, or `php82` — match the PHP your WHMCS runs on |
+| **WHMCS 9** | 8.2 or newer | `php82` |
+
+> **Rule of thumb:** for any **PHP 8.2 or newer**, always use the `php82` build. Use `php74`/`php81` only if your server still runs PHP 7.4 or 8.1 (WHMCS 8 only).
 
 ---
 
@@ -23,12 +34,17 @@ The module can be ordered and downloaded from PUQ Cloud:
 - **FAQ:** [https://community.puqcloud.com/](https://community.puqcloud.com/)
 - **Direct download links:**
 
-PHP 8.1:
+PHP 7.4 (WHMCS 8 only):
+```
+wget https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/php74/PUQ_WHMCS-Account-Statement-latest.zip
+```
+
+PHP 8.1 (WHMCS 8 only):
 ```
 wget https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/php81/PUQ_WHMCS-Account-Statement-latest.zip
 ```
 
-PHP 8.2+:
+PHP 8.2+ (WHMCS 8 and 9):
 ```
 wget https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/php82/PUQ_WHMCS-Account-Statement-latest.zip
 ```
