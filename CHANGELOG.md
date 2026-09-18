@@ -1,7 +1,30 @@
 # Changelog
 
-### Account Statement addon **[WHMCS](https://puqcloud.com/link.php?id=77)**
-#####  [Order now](https://puqcloud.com/store/whmcs-addon-modules) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [FAQ](https://community.puqcloud.com/)
+### PUQ Account Statement module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+##### [Order now](https://puqcloud.com/whmcs-addon-puq-account-statement.php) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [Community](https://community.puqcloud.com/)
+
+## v4.0.0 — 2026-09-18
+
+### Major Architecture & Compatibility Upgrade
+
+- **Universal ionCube Loader v15 Support:** Fully encoded with the latest ionCube 15 compiler, guaranteeing seamless execution across PHP 7.4, 8.1, 8.2, 8.3, and 8.4 environments.
+- **Unencoded Hooks Architecture (v4.0.0 Standard):** Refactored `hooks.php` into an open, unencoded entrypoint delegating to `lib/puqAccountStatementHooks.php` with robust `\Throwable` error isolation and module logging.
+- **WHMCS 8.x & WHMCS 9+ Compatibility:** Modernized database queries and hook registrations for complete compatibility with current and upcoming WHMCS releases.
+- **Performance & Reliability Improvements:** Streamlined cron scheduling, automated statement cleanup, and client summary tab rendering.
+
+### New Features & Enhancements
+
+- **"All Unpaid Invoices" Period Selection in Schedules:** Added automated "All Unpaid Invoices" (`all_unpaid`) period option in Schedules. The module automatically scans all unpaid and overdue invoices across all years (from `1970-01-01` to current date), ensuring outstanding balances from prior or future years (2025, 2026, 2027+) are never missed.
+- **Automated Empty Statement Suppression:** When generating or scheduling statements targeting unpaid invoices, the module automatically skips clients with zero unpaid balances, preventing blank emails from being sent.
+- **Interactive Database Verification Tool:** Added a "Check and Update Database Schema" maintenance tool in Module Settings to non-destructively inspect tables and automatically add missing columns during upgrades.
+- **"All Time" Quick Period Preset:** Added "All Time" period button in Manual Generation and Bulk Generation to instantly select the full history from account inception to current date.
+- **In-Memory Email Attachment Delivery:** Enhanced bulk statement email delivery by handing PDF attachments directly in-memory to the WHMCS mail pipeline via `EmailPreSend`, preventing dropped attachments on shared filesystems.
+- **Localized WHMCS System Descriptions:** Automated localization for native WHMCS transaction and credit descriptions (e.g. `Invoice Payment`, `Credit Applied to Invoice`, `Credit Removed`, `Reason: Order status changed to Cancelled`, `Overpayment`, `Mass Invoice Payment Credit for Invoice`).
+- **Complete 26-Language Localization:** Added translations for all new schedule and database maintenance strings across all 26 supported language files.
+- **Template Scanner Refinement:** PDF template discovery now ignores draft and hidden files starting with `_` or `.` (e.g. `_classic.tpl`), avoiding duplicate or confusing template selections.
+- **Documentation Fixes & Updated Screenshots:** Corrected BookStack canonical documentation links and updated administrative screenshots for Schedule Editor and Settings.
+
+---
 
 ## v1.2 — 2026-06-05
 

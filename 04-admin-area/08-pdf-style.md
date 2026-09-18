@@ -1,13 +1,13 @@
 # PDF Style
 
-### Account Statement addon **[WHMCS](https://puqcloud.com/link.php?id=77)**
-#####  [Order now](https://puqcloud.com/store/whmcs-addon-modules) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [FAQ](https://community.puqcloud.com/)
+### PUQ Account Statement module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+##### [Order now](https://puqcloud.com/whmcs-addon-puq-account-statement.php) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [Community](https://community.puqcloud.com/)
 
 The PDF Style page is available at: **Addons** > **PUQ Account Statement** > **Configuration** > **PDF Style**
 
 This page allows you to customize the appearance and content of generated PDF statements.
 
-![PDF Style — template editor with typography, colors, and display options](img/09-pdf-style.png)
+![PDF Style — template editor with typography, colors, and display options](../img/09-pdf-style.png)
 *09-pdf-style.png*
 
 ---
@@ -87,42 +87,42 @@ The module includes several built-in PDF templates. The template is selected in 
 
 Traditional bank statement layout with bordered table and alternating rows.
 
-![Classic PDF template — portrait orientation](img/12-pdf-classic.png)
+![Classic PDF template — portrait orientation](../img/12-pdf-classic.png)
 *12-pdf-classic.png*
 
 ### Classic (Landscape)
 
 Same classic layout in landscape orientation, showing more columns.
 
-![Classic PDF template — landscape orientation](img/13-pdf-classic-landscape.png)
+![Classic PDF template — landscape orientation](../img/13-pdf-classic-landscape.png)
 *13-pdf-classic-landscape.png*
 
 ### Modern (Portrait)
 
 Clean modern design with color-coded summary cards and running balance column.
 
-![Modern PDF template — portrait orientation](img/14-pdf-modern.png)
+![Modern PDF template — portrait orientation](../img/14-pdf-modern.png)
 *14-pdf-modern.png*
 
 ### Detailed (Portrait)
 
 Comprehensive layout with full company details, client information, and detailed transaction table.
 
-![Detailed PDF template — portrait orientation](img/15-pdf-detailed.png)
+![Detailed PDF template — portrait orientation](../img/15-pdf-detailed.png)
 *15-pdf-detailed.png*
 
 ### Modern (Landscape)
 
 Modern layout in landscape orientation with expanded column space.
 
-![Modern PDF template — landscape orientation](img/16-pdf-modern-landscape.png)
+![Modern PDF template — landscape orientation](../img/16-pdf-modern-landscape.png)
 *16-pdf-modern-landscape.png*
 
 ### Summary (Landscape)
 
 Executive summary format with color-coded totals and compact transaction table.
 
-![Summary PDF template — landscape orientation](img/17-pdf-summary-landscape.png)
+![Summary PDF template — landscape orientation](../img/17-pdf-summary-landscape.png)
 *17-pdf-summary-landscape.png*
 
 ---
@@ -131,7 +131,7 @@ Executive summary format with color-coded totals and compact transaction table.
 
 You can create custom PDF templates by adding `.tpl` files to the `templates/pdf/` directory.
 
-![PDF templates directory structure](img/18-pdf-templates-tree.png)
+![PDF templates directory structure](../img/18-pdf-templates-tree.png)
 *18-pdf-templates-tree.png*
 
 Each template file must start with a PHP comment header that defines its metadata:
@@ -144,7 +144,7 @@ Each template file must start with a PHP comment header that defines its metadat
 // Description: My custom statement layout
 ```
 
-![PDF template code structure](img/19-pdf-template-code.png)
+![PDF template code structure](../img/19-pdf-template-code.png)
 *19-pdf-template-code.png*
 
 ### Template Header Fields

@@ -1,13 +1,13 @@
 # Dashboard
 
-### Account Statement addon **[WHMCS](https://puqcloud.com/link.php?id=77)**
-#####  [Order now](https://puqcloud.com/store/whmcs-addon-modules) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [FAQ](https://community.puqcloud.com/)
+### PUQ Account Statement module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+##### [Order now](https://puqcloud.com/whmcs-addon-puq-account-statement.php) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [Community](https://community.puqcloud.com/)
 
 The Dashboard is the home page of the module, available at: **Addons** > **PUQ Account Statement** > **Dashboard**
 
 It provides a complete overview of your statement activity — key metrics, quick generation, recent statements, and upcoming schedules.
 
-![Dashboard — metrics, quick generate, recent statements, and upcoming schedules](img/02-dashboard.png)
+![Dashboard — metrics, quick generate, recent statements, and upcoming schedules](../img/02-dashboard.png)
 *02-dashboard.png*
 
 ---

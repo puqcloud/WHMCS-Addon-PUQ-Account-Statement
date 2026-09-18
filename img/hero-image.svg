@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b1120;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161c33;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0b1120;stop-opacity:1" />
+    </linearGradient>
+    <!-- Accent Top Line Gradient -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6c3ce0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c4b5fd;stop-opacity:1" />
+    </linearGradient>
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.6"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- Ambient Glow -->
+  <circle cx="180" cy="150" r="120" fill="#6c3ce0" opacity="0.16" />
+  <circle cx="180" cy="150" r="80" fill="#8b5cf6" opacity="0.18" />
+
+  <!-- LEFT: Illustration (Centered around X=180, Y=150) -->
+  <g transform="translate(180, 150) scale(1.35)">
+    <!-- Document/statement icon -->
+    <g transform="translate(-65, -55)">
+      <!-- Paper background -->
+      <rect x="10" y="5" width="60" height="80" rx="4" fill="#111827" stroke="#8b5cf6" stroke-width="2"/>
+      <!-- Fold corner -->
+      <path d="M50,5 L70,5 L70,25 L50,25 Z" fill="#1e1b4b" stroke="#8b5cf6" stroke-width="1.5"/>
+      <path d="M50,5 L50,25 L70,5 Z" fill="none" stroke="#8b5cf6" stroke-width="1.5"/>
+      <!-- Header line -->
+      <rect x="18" y="16" width="25" height="3" rx="1" fill="#8b5cf6" opacity="0.8"/>
+      <!-- Table rows -->
+      <line x1="18" y1="28" x2="62" y2="28" stroke="#4a5568" stroke-width="1.5"/>
+      <line x1="18" y1="38" x2="62" y2="38" stroke="#4a5568" stroke-width="1.5"/>
+      <line x1="18" y1="48" x2="62" y2="48" stroke="#4a5568" stroke-width="1.5"/>
+      <line x1="18" y1="58" x2="62" y2="58" stroke="#4a5568" stroke-width="1.5"/>
+      <line x1="18" y1="68" x2="62" y2="68" stroke="#4a5568" stroke-width="1.5"/>
+      <!-- Column divider -->
+      <line x1="44" y1="24" x2="44" y2="72" stroke="#4a5568" stroke-width="1"/>
+      <!-- Dollar sign -->
+      <text x="54" y="80" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" font-weight="bold">$</text>
+    </g>
+
+    <!-- Chart/summary bars -->
+    <g transform="translate(15, -15)">
+      <rect x="0" y="20" width="9" height="25" rx="2" fill="#6c3ce0" opacity="0.7"/>
+      <rect x="13" y="10" width="9" height="35" rx="2" fill="#8b5cf6" opacity="0.8"/>
+      <rect x="26" y="0" width="9" height="45" rx="2" fill="#c4b5fd" opacity="0.7"/>
+      <rect x="39" y="15" width="9" height="30" rx="2" fill="#6c3ce0" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- CENTER: Text Content -->
+  <g transform="translate(360, 45)">
+    <!-- Subtitle Category -->
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#a78bfa" letter-spacing="3">WHMCS ADDON MODULE</text>
+
+    <!-- Main Title -->
+    <text x="0" y="82" font-family="Arial, sans-serif" font-size="54" font-weight="bold" fill="#ffffff">ACCOUNT STATEMENT</text>
+
+    <!-- Divider Line -->
+    <rect x="0" y="102" width="500" height="3" fill="url(#accent)" rx="1.5"/>
+
+    <!-- Key Bullet Points -->
+    <g transform="translate(0, 130)">
+      <!-- Bullet 1 -->
+      <circle cx="6" cy="6" r="4" fill="#8b5cf6"/>
+      <text x="20" y="10" font-family="Arial, sans-serif" font-size="14" fill="#cbd5e1" font-weight="500">
+        Consolidated financial statements with clear outstanding balances
+      </text>
+
+      <!-- Bullet 2 -->
+      <circle cx="6" cy="34" r="4" fill="#8b5cf6"/>
+      <text x="20" y="38" font-family="Arial, sans-serif" font-size="14" fill="#cbd5e1" font-weight="500">
+        Professional PDF &amp; CSV exports with customizable templates
+      </text>
+
+      <!-- Bullet 3 -->
+      <circle cx="6" cy="62" r="4" fill="#8b5cf6"/>
+      <text x="20" y="66" font-family="Arial, sans-serif" font-size="14" fill="#cbd5e1" font-weight="500">
+        Automated scheduling, bulk delivery &amp; client area self-service
+      </text>
+    </g>
+  </g>
+
+  <!-- RIGHT: Branding & Badge -->
+  <!-- Divider -->
+  <line x1="930" y1="40" x2="930" y2="260" stroke="#334155" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+  <g transform="translate(970, 75)">
+    <!-- PUQ Software Branding -->
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="#8b5cf6">PUQ</text>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#64748b" letter-spacing="2">SOFTWARE</text>
+
+    <!-- Verified Badge -->
+    <g transform="translate(0, 95)">
+      <rect x="0" y="0" width="165" height="38" rx="6" fill="#1e1b4b" stroke="#8b5cf6" stroke-width="1.5"/>
+      <!-- Checkmark Circle -->
+      <circle cx="22" cy="19" r="10" fill="#22c55e"/>
+      <polyline points="17,19 20,22 27,15" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="38" y="17" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#c4b5fd">MARKETPLACE</text>
+      <text x="38" y="29" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8">VERIFIED ADDON</text>
+    </g>
+  </g>
+</svg>

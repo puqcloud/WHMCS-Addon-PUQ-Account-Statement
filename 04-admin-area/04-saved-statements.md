@@ -1,13 +1,13 @@
 # Saved Statements
 
-### Account Statement addon **[WHMCS](https://puqcloud.com/link.php?id=77)**
-#####  [Order now](https://puqcloud.com/store/whmcs-addon-modules) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [FAQ](https://community.puqcloud.com/)
+### PUQ Account Statement module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+##### [Order now](https://puqcloud.com/whmcs-addon-puq-account-statement.php) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [Community](https://community.puqcloud.com/)
 
 The Saved Statements page is available at: **Addons** > **PUQ Account Statement** > **Saved Statements**
 
 This page shows all previously saved account statements with filtering, pagination, and management tools.
 
-![Saved Statements — list with filters and actions](img/05-saved-statements.png)
+![Saved Statements — list with filters and actions](../img/05-saved-statements.png)
 *05-saved-statements.png*
 
 ---

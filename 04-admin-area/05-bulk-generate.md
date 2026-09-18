@@ -1,13 +1,13 @@
 # Bulk Generate
 
-### Account Statement addon **[WHMCS](https://puqcloud.com/link.php?id=77)**
-#####  [Order now](https://puqcloud.com/store/whmcs-addon-modules) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [FAQ](https://community.puqcloud.com/)
+### PUQ Account Statement module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+##### [Order now](https://puqcloud.com/whmcs-addon-puq-account-statement.php) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [Community](https://community.puqcloud.com/)
 
 The Bulk Generate page is available at: **Addons** > **PUQ Account Statement** > **Bulk Generate**
 
 This page allows you to generate statements for multiple clients at once with a single operation.
 
-![Bulk Generate — client filter, options, and progress](img/06-bulk-generate.png)
+![Bulk Generate — client filter, options, and progress](../img/06-bulk-generate.png)
 *06-bulk-generate.png*
 
 ---
@@ -34,7 +34,7 @@ When selecting **By Client Group** or **By Country**, a dropdown field appears t
 Set the statement period using:
 
 - **Date From / Date To** — manual date inputs
-- **Quick Period** buttons — same presets as the Generate page (This Month, Last Month, This Year, Last Year)
+- **Quick Period** buttons — same presets as the Generate page (This Month, Last Month, This Year, Last Year, All Time)
 
 The default period is set to **Last Month**.
 

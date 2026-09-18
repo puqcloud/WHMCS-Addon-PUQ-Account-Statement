@@ -1,13 +1,13 @@
 # Generate Statement
 
-### Account Statement addon **[WHMCS](https://puqcloud.com/link.php?id=77)**
-#####  [Order now](https://puqcloud.com/store/whmcs-addon-modules) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [FAQ](https://community.puqcloud.com/)
+### PUQ Account Statement module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+##### [Order now](https://puqcloud.com/whmcs-addon-puq-account-statement.php) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [Community](https://community.puqcloud.com/)
 
 The Generate page is available at: **Addons** > **PUQ Account Statement** > **Generate**
 
 This is the main page for creating individual account statements for a specific client.
 
-![Generate Statement — parameters and preview](img/03-generate.png)
+![Generate Statement — parameters and preview](../img/03-generate.png)
 *03-generate.png*
 
 ---
@@ -16,7 +16,7 @@ This is the main page for creating individual account statements for a specific 
 
 You can also start a statement directly from a client's profile. Open **Clients** > select a client, and on the **Summary** tab use the **Account Statement** panel and click **Generate Account Statement**. This opens the Generate page with the client pre-selected.
 
-![Generate Account Statement button on the client profile Summary tab](img/21-admin-client-profile.png)
+![Generate Account Statement button on the client profile Summary tab](../img/21-admin-client-profile.png)
 *21-admin-client-profile.png*
 
 ---
@@ -39,6 +39,7 @@ Set the date range for the statement using:
   - **Last Month** — first to last day of previous month
   - **This Year** — January 1 to December 31 of current year
   - **Last Year** — January 1 to December 31 of previous year
+  - **All Time** — entire history from account inception (from `1970-01-01` to current date)
 
 ### Include Options
 
@@ -91,5 +92,5 @@ After viewing a statement, additional action buttons appear in the preview heade
 | **Send to Client** | Send the statement to the client via email with PDF attachment |
 | **Generate Link** | Generate a public shareable link (copied to clipboard automatically) |
 
-![Statement preview with action buttons](img/04-generate-preview.png)
+![Statement preview with action buttons](../img/04-generate-preview.png)
 *04-generate-preview.png*

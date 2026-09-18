@@ -1,7 +1,7 @@
 # Client Area
 
-### Account Statement addon **[WHMCS](https://puqcloud.com/link.php?id=77)**
-#####  [Order now](https://puqcloud.com/store/whmcs-addon-modules) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [FAQ](https://community.puqcloud.com/)
+### PUQ Account Statement module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+##### [Order now](https://puqcloud.com/whmcs-addon-puq-account-statement.php) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [Community](https://community.puqcloud.com/)
 
 This page describes the client-facing Account Statement functionality available in the WHMCS client area.
 
@@ -18,10 +18,10 @@ Clients can access their Account Statement page in two ways:
 
 When "Add to Billing Menu" is enabled, clients reach the page from **Billing** > **Account Statement** in the client area navigation:
 
-![Account Statement link in the client area Billing menu](img/22-client-billing-menu.png)
+![Account Statement link in the client area Billing menu](../img/22-client-billing-menu.png)
 *22-client-billing-menu.png*
 
-![Client Area — account statement generation and saved statements](img/11-client-area.png)
+![Client Area — account statement generation and saved statements](../img/11-client-area.png)
 *11-client-area.png*
 
 ---
@@ -54,7 +54,7 @@ Checkboxes to select what financial data to include:
 
 After clicking **View**, the generated statement is displayed inline below the form. The preview shows the same rendered HTML statement that administrators see.
 
-![Client area statement preview with summary](img/23-client-area-preview.png)
+![Client area statement preview with summary](../img/23-client-area-preview.png)
 *23-client-area-preview.png*
 
 ---

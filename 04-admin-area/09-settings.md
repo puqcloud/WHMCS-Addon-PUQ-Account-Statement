@@ -1,13 +1,13 @@
 # Settings
 
-### Account Statement addon **[WHMCS](https://puqcloud.com/link.php?id=77)**
-#####  [Order now](https://puqcloud.com/store/whmcs-addon-modules) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [FAQ](https://community.puqcloud.com/)
+### PUQ Account Statement module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+##### [Order now](https://puqcloud.com/whmcs-addon-puq-account-statement.php) | [Download](https://download.puqcloud.com/WHMCS/addons/PUQ_WHMCS-Account-Statement/) | [Community](https://community.puqcloud.com/)
 
 The Settings page is available at: **Addons** > **PUQ Account Statement** > **Configuration** > **Settings**
 
 This page controls the module's global settings including client area access, defaults, PDF template selection, email configuration, and advanced options.
 
-![Settings — general, defaults, client area, email, and advanced options](img/10-settings.png)
+![Settings — general, defaults, client area, email, and advanced options](../img/10-settings.png)
 *10-settings.png*
 
 ---
@@ -83,7 +83,7 @@ The dropdown is populated with all available WHMCS General email templates.
 
 When a statement is sent to a client (manually, via bulk, or via schedule), they receive an email with a PDF attachment and a summary of the statement:
 
-![Email with account statement — PDF attachment and summary](img/20-email-statement.png)
+![Email with account statement — PDF attachment and summary](../img/20-email-statement.png)
 *20-email-statement.png*
 
 The email includes:
@@ -101,6 +101,19 @@ The email includes:
 | **Statement Expiry Days** | Number of days before shared statement links expire. Set to 0 for links that never expire (default: 30) |
 | **Auto Cleanup Days** | Automatically delete saved statements older than this many days. Set to 0 to disable auto-cleanup (default: 90) |
 | **Per Page** | Number of records per page in statement lists (5–100, default: 25) |
+
+---
+
+## Database Verification
+
+The module provides an automated database maintenance and verification tool.
+
+![Database Verification — schema inspection and repair](../img/24-database-verification.png)
+*24-database-verification.png*
+
+| Action | Description |
+|--------|-------------|
+| **Check and Update Database Schema** | Non-destructively inspects all module database tables (`puq_acc_st_settings`, `puq_acc_st_statements`, `puq_acc_st_schedules`, `puq_acc_st_templates`, `puq_license`) and automatically creates any missing tables or columns. Useful after upgrading module files to ensure new database columns are properly added without data loss. |
 
 ---
 
